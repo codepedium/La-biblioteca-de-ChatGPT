@@ -1,0 +1,32 @@
+h1{
+    display: none;
+}
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: center;
+}
+th, td {
+    border: 1px solid white;
+    padding: 10px;
+}
+th {
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+td:nth-child(1) {
+    text-align: left;
+}
+td:nth-child(2) {
+    text-align: right;
+}
+td:nth-child(3) {
+    text-align: right;
+}
+tr:last-child {
+    background-color: lightgray;
+    font-weight: bold;
+}

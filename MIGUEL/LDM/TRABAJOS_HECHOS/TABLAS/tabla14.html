@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Navegadores</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: 0 auto;
+            width: 80%;
+            text-align: center;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 2px solid #444; /* Bordes estándar */
+        }
+
+        th {
+            background-color: #4CAF50; /* Verde */
+            color: white;
+        }
+
+        td {
+            background-color: #f9f9f9;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #e9e9e9; /* Alternancia de colores */
+        }
+
+        td.important {
+            border: 4px solid black; /* Bordes más gruesos para celdas destacadas */
+        }
+    </style>
+</head>
+<body>
+    <h1>Navegadores Web</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Navegador</th>
+                <th>Desarrollador</th>
+                <th>Plataformas soportadas</th>
+                <th>Lanzamiento inicial</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="important">Mozilla Firefox</td>
+                <td>Mozilla Foundation</td>
+                <td>Windows, macOS, Linux, Android, iOS</td>
+                <td>2002</td>
+            </tr>
+            <tr>
+                <td>Safari</td>
+                <td>Apple</td>
+                <td>macOS, iOS</td>
+                <td>2003</td>
+            </tr>
+            <tr>
+                <td>Google Chrome</td>
+                <td>Google</td>
+                <td>Windows, macOS, Linux, Android, iOS</td>
+                <td>2008</td>
+            </tr>
+            <tr>
+                <td>Opera</td>
+                <td>Opera Software</td>
+                <td>Windows, macOS, Linux, Android, iOS</td>
+                <td>1995</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

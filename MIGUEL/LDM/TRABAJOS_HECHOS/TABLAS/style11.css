@@ -1,0 +1,18 @@
+h1{
+    display: none;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    text-align: center;
+    background-color: white; 
+}
+th, td {
+    border: 2px solid white; 
+    padding: 10px;
+}
+th {
+    background-color:lightgray; 
+    font-weight: bold;
+}

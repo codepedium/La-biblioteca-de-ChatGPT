@@ -1,0 +1,19 @@
+table{
+    width: 50%;
+    border-collapse: collapse;
+    font-family: calibri;
+
+}
+
+td,th {
+
+    border: 2px solid rgb(207, 201, 201);
+    height: 20px;
+    padding: 2%;
+
+}
+
+.derecha {
+
+    text-align: right;
+}

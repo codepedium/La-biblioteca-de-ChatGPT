@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla Holded</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: 20px auto;
+            width: 60%;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #4CAF50; /* Verde */
+            color: white;
+            border: 3px solid black; /* Bordes más anchos en encabezados */
+        }
+
+        td {
+            border: 1px solid #ddd; /* Bordes normales en celdas */
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9; /* Alterna filas en gris claro */
+        }
+
+        td.special-border {
+            border: 3px solid black; /* Bordes más anchos en algunas celdas */
+        }
+    </style>
+</head>
+<body>
+    <h1>Holded</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Nombre</th>
+                <th>Cantidad</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Producto A</td>
+                <td class="special-border">10</td> <!-- Borde más ancho -->
+                <td>25€</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Producto B</td>
+                <td>5</td>
+                <td class="special-border">15€</td> <!-- Borde más ancho -->
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Producto C</td>
+                <td>20</td>
+                <td>40€</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td class="special-border">Producto D</td> <!-- Borde más ancho -->
+                <td>12</td>
+                <td>32€</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

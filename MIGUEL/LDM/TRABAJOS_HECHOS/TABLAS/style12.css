@@ -1,0 +1,17 @@
+h1{
+    display: none;
+}
+table {
+    width: 50px;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: white; 
+}
+th, td {
+    border: 2px solid white; 
+    padding: 10px;
+}
+th {
+    background-color:lightgray; 
+    font-weight: bold;
+}
